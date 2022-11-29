@@ -1,13 +1,11 @@
 <template>
-    <v-container>
-        <v-btn> btn </v-btn>
-        <v-avatar color="indigo">
-            <v-icon dark> mdi-account-circle </v-icon>
-        </v-avatar>
-    </v-container>
+    <div>
+        <a-button type="primary">Primary Button</a-button>
+    </div>
 </template>
 
 <script lang="ts" setup>
+    import { Button as AButton } from "ant-design-vue";
     import { onMounted } from "vue";
 
     onMounted(() => {
