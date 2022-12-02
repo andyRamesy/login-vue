@@ -6,6 +6,11 @@ const routes = <Array<RouteRecordRaw>>[
         name: "home",
         component: () => import("../views/HomeView.vue"),
     },
+    {
+        path: "/login",
+        name: "login",
+        component: () => import("../views/Auth/Login/index.vue"),
+    },
 ];
 
 export default routes;

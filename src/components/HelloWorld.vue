@@ -1,11 +1,11 @@
 <template>
     <div>
-        <a-button type="primary">Primary Button</a-button>
+        <Button>qsdfqsdf</Button>
     </div>
 </template>
 
 <script lang="ts" setup>
-    import { Button as AButton } from "ant-design-vue";
+    import Button from "@/components/common/Button/Button.vue";
     import { onMounted } from "vue";
 
     onMounted(() => {

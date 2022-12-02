@@ -1,18 +1,27 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "jsx": "preserve",
-    "noImplicitThis": true,
-    "strict": true,
-    // Required in Vite
-    "isolatedModules": true,
-    // "preserveValueImports": true,
-    "importsNotUsedAsValues": "error",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-  },
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "noImplicitThis": true,
+        "strict": true,
+        // Required in Vite
+        "isolatedModules": true,
+        // "preserveValueImports": true,
+        "importsNotUsedAsValues": "error",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                // / to begin with.
+                "src/*"
+            ]
+        },
+        "types": ["vite/client"]
+
+    }
 }
